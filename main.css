@@ -24,12 +24,12 @@ body{
 .anger2{
     position:fixed;
     text-align:center;
-    top:430px;
+    top:380px;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    font-size: 100px;
+    font-size: 150px;
     color:rgb(97, 255, 34);
-    -webkit-animation: flash linear 2s infinite;
-    animation: flash linear 2s infinite;
+    -webkit-animation: flash linear 1s infinite;
+    animation: flash linear 1s infinite;
 }
 .outer{
     display:flex;
@@ -51,7 +51,7 @@ body{
 .music{
     position:fixed;
     top: 430px;
-    left:660px;
+    left:640px;
     z-index: 2;
 }
 
