@@ -50,8 +50,9 @@ body{
   }
 .music{
     position:fixed;
-    top: 800px;
-    left:100px;
+    top: 430px;
+    left:660px;
+    z-index: 2;
 }
 
   @-webkit-keyframes flash {
