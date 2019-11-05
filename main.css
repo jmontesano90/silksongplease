@@ -49,7 +49,9 @@ body{
     animation: flashBack linear 1.8s infinite;
   }
 .music{
-    display:none;
+    position:fixed;
+    top: 800px;
+    left:100px;
 }
 
   @-webkit-keyframes flash {
