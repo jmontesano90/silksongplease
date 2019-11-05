@@ -20,7 +20,7 @@ function nextImage(){
 }
 
 function daysSince(){
-  let date1 = new Date("2/14/2019");
+  let date1 = new Date("6/12/2019");
   let today = new Date();
   let dateNow = today.getFullYear()+'-'+(today.getMonth()+1)+'-'+today.getDate();
 
