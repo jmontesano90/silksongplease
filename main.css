@@ -32,8 +32,7 @@ body{
     animation: flash linear 1s infinite;
 }
 .outer{
-    display:flex;
-    align-items: center;
+    display:none;
 }
 
 .flashyLights {
@@ -84,4 +83,9 @@ body{
     75%		{ background-color: #25487807;}
     100%	{ background-color: #04a1d533;}
   }
-  
+  @media screen and (min-width: 1080px){
+    .outer{
+      display:flex;
+      align-items: center;
+  }
+  }
